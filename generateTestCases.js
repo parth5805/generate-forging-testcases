@@ -136,7 +136,7 @@ const summarySheet = xlsx.utils.aoa_to_sheet(summaryData);
 xlsx.utils.book_append_sheet(workbook, summarySheet, 'Summary');
 
 // Write workbook to file
-const outputPath = './5gem_forging_test_cases.xlsx';
+const outputPath = './gem_forging_test_cases.xlsx';
 xlsx.writeFile(workbook, outputPath);
 
 console.log(`Test cases and summary have been written to ${outputPath}`);
