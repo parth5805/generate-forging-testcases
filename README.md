@@ -32,7 +32,7 @@ This Node.js script generates test cases and summary data for a gem forging proc
    The generated Excel file will be saved as gem_forging_test_cases.xlsx in the current directory.
 
 
-	2.	The generated Excel file will be saved as 5gem_forging_test_cases.xlsx in the current directory.
+	2.	The generated Excel file will be saved as gem_forging_test_cases.xlsx in the current directory.
 
 File Structure
 
